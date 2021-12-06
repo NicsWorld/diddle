@@ -29,7 +29,7 @@ window.onmousedown = (event) => {
     if (event.which === 2 && event.ctrlKey) {
         let canvas = document.getElementById("drawingcanvas");
         let imgURL = chrome.extension.getURL("images/lizardFinal.gif");
-
+        console.log(imgURL);
         x = event.offsetX;
         y = event.pagoffsetYeY;
         isDrawing = true;

@@ -1,17 +1,17 @@
 #drawingcanvas {
-    cursor: url(chrome-extension://nnkmmklobjifhepblpahogkajjpngaka/images/lizard3.png), auto;
+    cursor: url(chrome-extension://__MSG_@@extension_id__/images/lizard3.png), auto;
     -webkit-animation: cursor 400ms infinite;
     animation: cursor 400ms infinite;
   }
   
   @-webkit-keyframes cursor {
-    0% {cursor: url(chrome-extension://nnkmmklobjifhepblpahogkajjpngaka/images/lizard3.png), auto;}
+    0% {cursor: url(chrome-extension://__MSG_@@extension_id__/images/lizard3.png), auto;}
 
-    100% {cursor: url(chrome-extension://nnkmmklobjifhepblpahogkajjpngaka/images/lizard4.png), auto;}
+    100% {cursor: url(chrome-extension://__MSG_@@extension_id__/images/lizard4.png), auto;}
   } 
   
   @keyframes cursor {
-    0% {cursor: url(chrome-extension://nnkmmklobjifhepblpahogkajjpngaka/images/lizard3.png), auto;}
+    0% {cursor: url(chrome-extension://__MSG_@@extension_id__/images/lizard3.png), auto;}
 
-    100% {cursor: url(chrome-extension://nnkmmklobjifhepblpahogkajjpngaka/images/lizard4.png), auto;}
+    100% {cursor: url(chrome-extension://__MSG_@@extension_id__/images/lizard4.png), auto;}
   }
