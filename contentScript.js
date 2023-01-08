@@ -26,7 +26,10 @@ function handleMove(e) {
 }
 
 window.onmousedown = (event) => {
-    if (event.which === 2 && event.ctrlKey) {
+  //windows
+  // if (event.which === 2 && event.ctrlKey) {
+    //mac trackpad
+    if (event.which === 1 && event.ctrlKey) {
         let canvas = document.getElementById("drawingcanvas");
         let imgURL = chrome.extension.getURL("images/lizardFinal.gif");
         console.log(imgURL);
